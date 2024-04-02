@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: trade-data-service
+  cloud:
+    consul:
+      config:
+        enabled: true
+        acl-token: ${ACL_TOKEN}
